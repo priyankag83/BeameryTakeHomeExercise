@@ -1,0 +1,11 @@
+    {
+        "FirstName" : "Priyanka",
+        "LastName"  : "Gupta",
+        "Password"  : "priyanka1",
+        "Address"   : "Flat2",
+        "City"      : "Seattle",
+        "State"     : "California",
+        "Zip"       :  10000,
+        "Country"   : "United States",
+        "MobilePhone": 7459784432
+    }

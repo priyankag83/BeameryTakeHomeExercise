@@ -1,0 +1,18 @@
+{
+	"SignIn_Link": "a.login",
+	"Email_Address_TextBox": "input#email_create",
+	"Create_Account_Button": "button#SubmitCreate",
+	"FirstName_TextBox": "input#customer_firstname",
+	"LastName_TextBox": "input#customer_lastname",
+	"Password_TextBox": "input#passwd",
+	"Address_TextBox": "input#address1",
+	"City_TextBox": "input#city",
+	"State_Dropdown": "select#id_state",
+	"Zip_TextBox": "input#postcode",
+	"Country_Dropdown": "select#id_country",
+	"MobilePhone_TextBox": "input#phone_mobile",
+	"Register_Button": "button#submitAccount",
+	"ErrorMessage_Label": "div#create_account_error li",
+	"NameLink": "a.account span",
+	"Errors": "[class='alert alert-danger'] p"
+}
