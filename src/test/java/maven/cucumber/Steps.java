@@ -70,7 +70,7 @@ public class Steps {
 					if(os.contains("mac"))
 					{
 						//Launching google chrome in mac.., I have included driver for Chrome version 85 in the project
-						System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
+						System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
 						//You can replace chromedriver and specify path here if you are not using chrome version 85
 						//System.setProperty("webdriver.chrome.driver", System.getProperty("<path_to_chromedriver>/chromedriver⁩"));
 
@@ -78,7 +78,7 @@ public class Steps {
 					else
 					{
 						//Launching google chrome in windows..";
-						System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");	
+						System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");	
 					}
 					
 					driver = new ChromeDriver();
