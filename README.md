@@ -21,7 +21,7 @@
 ### How to run the tests:
 1. Clone the git repository - https://github.com/priyankag83/BeameryTakeHomeExercise.git
 2. Import the project in Eclipse.
-3. Run the project as JUnit test.
+3. Run the project as Maven test.
 4. The 'chromedriver' (present at ./Drivers/chromedriver) is the one compatible with latest chrome version 85. chromedriver can be replaced here with the corresponding version if you are not using chrome version 85.
 
 ### Troubleshooting:
@@ -29,7 +29,7 @@ If you get "Illegal state exception while executing the test and chrome does not
 chmod +x chromedriver
 
 ### Reports
-HTML Reports can be found under - target/cucumber-reports/index.html. 
+HTML Reports can be found under - target/cucumber-reports/index.html (target folder will be created after Project is run as Maven Test)
 
 ### Suggested Improvements (if provided with more time)
 1. Design can be improved to incorporate page object model design pattern.
